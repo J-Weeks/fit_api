@@ -10,7 +10,7 @@ User.destroy_all
 Activity.destroy_all
 Trainer.destroy_all
 
-u1 = User.create(email: 'user1@example.com', password: 'password', bio: 'example weightlifter bio', pic_url: 'upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png')
+u1 = User.create(email: 'user@example.com', password: 'password', bio: 'example weightlifter bio', pic_url: 'upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png')
 
 u2 = User.create(email: 'user2@example.com', password: 'password', bio: 'example athlete bio', pic_url: 'upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png')
 
